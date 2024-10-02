@@ -1,0 +1,70 @@
+.fa-eye, .fa-eye-slash{
+    font-size: 20px;
+    cursor: pointer;
+}
+.images div{
+    position: relative;
+    width: 120px;
+}
+
+.images div span {
+    position: absolute;
+    right: 0px;
+    color: #FFF;
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-footer>nav>div.flex{
+    display: none;
+}
+
+.card-footer>nav div span.inline-flex a, .card-footer>nav div span.inline-flex a svg, .card-footer>nav div span.inline-flex span span svg{
+    width: 20px;
+}
+
+.custom_field .custom_field_added{
+    padding: 10px;
+}
+
+.custom_field .custom_field_added select{
+    font-size: 17px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.custom_field .custom_field_added input{
+    margin-left: 10px;
+}
+
+.custom_field .custom_field_added span{
+    cursor: pointer;
+}
+
+.product .custom_field{
+    padding: 20px;
+}
+
+#map, #map-canvas{
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+
+#remember, .form-check-label{
+    display: none;
+}
+
+#sidebar {
+    flex-basis: 15rem;
+    flex-grow: 1;
+    padding: 1rem;
+    max-width: 30rem;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+}
